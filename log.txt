@@ -1,0 +1,4 @@
+2020/06/21 15:04:05 Purchased aapl stock at $500.0, since its higher that the current price ($349.72)
+2020/06/21 15:04:05 Purchased stock!
+2020/06/21 17:00:08 Purchased aapl stock at $500.0, since its higher that the current price ($349.72)
+2020/06/21 17:00:20 Purchased goog stock at $500.0, since its higher that the current price ($349.72)
