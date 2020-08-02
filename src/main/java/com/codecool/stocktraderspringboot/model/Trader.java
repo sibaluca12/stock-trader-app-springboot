@@ -11,23 +11,16 @@ import java.io.IOException;
  **/
 @Component
 public class Trader {
-	private String symbol;
-	private double bid;
-	private static Trader instance;
+
 
 	@Autowired
 	private Logger logger;
 
-	@Autowired
-	private RemoteURLReader remoteURLReader;
 
 	@Autowired
 	private StockAPIService stockService;
 
-	public Trader() {
 
-		this.stockService = new StockAPIService();
-    }
 
 	/** Checks the price of a stock, and buys it if the price is not greater than the bid amount.
 	 * 	@return whether any stock was bought */
@@ -52,11 +45,4 @@ public class Trader {
 		return result;
 	}
 
-	public void setSymbol(String symbol) {
-		this.symbol = symbol;
-	}
-
-	public void setBid(double bid) {
-		this.bid = bid;
-	}
 }

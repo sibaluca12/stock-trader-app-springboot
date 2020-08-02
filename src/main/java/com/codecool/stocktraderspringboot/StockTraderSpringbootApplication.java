@@ -10,7 +10,7 @@ import javax.annotation.PostConstruct;
 @SpringBootApplication
 public class StockTraderSpringbootApplication {
 
-    
+
 
     public static void main(String[] args) {
         SpringApplication.run(StockTraderSpringbootApplication.class, args);

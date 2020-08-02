@@ -45,8 +45,7 @@ public class TradingApp {
 
 		try {
 			//Trader trader = new Trader();
-			trader.setBid(price);
-			trader.setSymbol(symbol);
+
 			boolean purchased = trader.buy(symbol, price);
 
 			if (purchased) {
